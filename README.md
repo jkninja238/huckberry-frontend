@@ -17,7 +17,8 @@ The header functionality you are to replicate can be found: https://huckberry.co
 
 
 ### Project Goal
-Please build out a pixel-perfect re-creation of our current Header Navigation and populate it with data provided in the `NavigationData.json` file.
+Please build out a pixel-perfect re-creation of our current Header Navigation and populate it with data provided in the `src/assets/NavigationData.json` file. 
+You will also find the logos and icons needed in that folder as well.
 
 * Style should be pixel perfect (use web tools inspector for help on finding Font Size and Colors).
 * Should function the same as it does on https://huckberry.com/ 
