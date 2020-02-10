@@ -1,28 +1,29 @@
 # Huckberry Frontend Take Home Project
 
 ## Introduction
-The following exercise was put together for Front End candidates applying for a position at Huckberry. 
-You will need to use either Github or Bitbucket to submit the finished project.
+Thank you for your interest in Huckberry. As a Frontend applicant, we ask that you please complete this project.
+You will need to use either Github or Bitbucket to submit your work.
 
 Follow the instructions below for details on how to complete this project:
 
 ## Instructions: 
 
-You will be replicating our current Header UI into a frontend application using React.js.
-create-react-app was already used, so you will be able to start a development server simply by using `npm start`
+Please recreate our current Header Navigation UI (found at https://huckberry.com/)into a frontend application using React.js. 
+**Note:** You are only expected to code out the non-scrolled version of the header, with the hover-dropdown functionlities, as seen in this gif: https://imgur.com/CkA4Tcj
 
-The header functionality you are to replicate can be found: https://huckberry.com/
+1) Fork this repository
+2) Start a development sever with `npm start`
+3) Implement the Header Navigation
+4) Once complete, send the Github/Bitbucket link to bcohn@huckberry.com
 
-**Note:** you are only expected to code out the non-scrolled version of the header, with the hover-dropdown functionlities, as seen in this gif: https://imgur.com/CkA4Tcj
 
+### Your Header Navigation should:
+* Display the data provided in `src/assets/NavigationData.json`
+* Use logos and icons in the `src/assets` directory 
+* Be pixel perfect (use web tools inspector for help on finding font sizes and colors).
+* Function the same as it does on https://huckberry.com/ 
+* Be able to receive more data (in the same format provided) and easily display it.
 
-### Project Goal
-Please build out a pixel-perfect re-creation of our current Header Navigation and populate it with data provided in the `src/assets/NavigationData.json` file. 
-
-You will also find the logos and icons needed in that folder as well.
-
-* Style should be pixel perfect (use web tools inspector for help on finding Font Size and Colors).
-* Should function the same as it does on https://huckberry.com/ 
-* Remember the DRY principle when structuring your code.
-* Your Header Navigation should be able to take in more data easily (in the same format).
+### Helpful hints:
+* Remember the DRY principles when structuring your code.
 * Please note the different layouts of the Clothing dropdown vs. the Journal dropdown.
