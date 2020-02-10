@@ -24,5 +24,5 @@ You will also find the logos and icons needed in that folder as well.
 * Style should be pixel perfect (use web tools inspector for help on finding Font Size and Colors).
 * Should function the same as it does on https://huckberry.com/ 
 * Remember the DRY principle when structuring your code.
-* Your Header Navigation should be able to receive more data (in the same format provided) and easily display it.
+* Your Header Navigation should be able to take in more data easily (in the same format).
 * Please note the different layouts of the Clothing dropdown vs. the Journal dropdown.
