@@ -9,11 +9,11 @@ Follow the instructions below for details on how to complete this project:
 ## Instructions: 
 
 You will be replicating our current Header UI into a frontend application using React.js.
-(Use of create-react-app to set up this project is encouraged)
+create-react-app was already used, so you will be able to start a development server simply by using `npm start`
 
-The header can be found: https://huckberry.com/
+The header functionality you are to replicate can be found: https://huckberry.com/
 
-Note: you are only expected to code out the non-scrolled version of the header, with the hover-dropdown functionlities, as seen in this gif: https://imgur.com/CkA4Tcj
+**Note:** you are only expected to code out the non-scrolled version of the header, with the hover-dropdown functionlities, as seen in this gif: https://imgur.com/CkA4Tcj
 
 
 ### Project Goal
