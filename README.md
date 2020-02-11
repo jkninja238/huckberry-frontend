@@ -1,7 +1,8 @@
 # Huckberry Frontend Take Home Project
 
 ## Introduction
-Thank you for your interest in Huckberry. As a Frontend applicant, we ask that you please complete this project.
+Thank you for your interest in Huckberry. 
+As a Frontend applicant, we ask that you please complete this project.
 You will need to use either Github or Bitbucket to submit your work.
 
 Follow the instructions below for details on how to complete this project:
