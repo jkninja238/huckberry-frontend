@@ -10,7 +10,9 @@ Follow the instructions below for details on how to complete this project:
 
 Please recreate our current Header Navigation UI (found at https://huckberry.com/)into a frontend application using React.js. 
 **Note:** You are only expected to code out the non-scrolled version of the header, with the hover-dropdown functionlities, as seen in these gifs: 
+
 https://i.imgur.com/CkA4Tcj.gif
+
 https://i.imgur.com/CgXK9EQ.gif
 
 1) Fork this repository
