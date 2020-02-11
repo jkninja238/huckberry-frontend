@@ -14,7 +14,7 @@ https://i.imgur.com/CkA4Tcj.gif
 https://i.imgur.com/CgXK9EQ.gif
 
 1) Fork this repository
-2) Start a development sever with `npm start`
+2) Start a development server with `npm start`
 3) Implement the Header Navigation
 4) Once complete, send the Github/Bitbucket link to bcohn@huckberry.com
 
@@ -22,7 +22,7 @@ https://i.imgur.com/CgXK9EQ.gif
 ### Your Header Navigation should:
 * Display the data provided in `src/assets/NavigationData.json`
 * Use logos and icons in the `src/assets` directory 
-* Be pixel perfect (use web tools inspector for help on finding font sizes and colors).
+* Be pixel perfect (consider using web tools inspector for help on finding font sizes and colors).
 * Function the same as it does on https://huckberry.com/ 
 * Be able to receive more data (in the same format provided) and easily display it.
 
