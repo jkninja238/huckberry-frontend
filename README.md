@@ -29,7 +29,7 @@ https://i.imgur.com/CgXK9EQ.gif
 * Use logos and icons in the `src/assets` directory 
 * Be pixel perfect (consider using web tools inspector for help on finding font sizes and colors).
 * Function the same as it does on https://huckberry.com/ 
-* Be able to receive more data (in the same format provided) and easily display it.
+* Be able to receive more data (in the same JSON format provided) and easily display it.
 
 ### Helpful hints:
 * Remember the DRY principles when structuring your code.
