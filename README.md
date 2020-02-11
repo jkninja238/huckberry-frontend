@@ -2,6 +2,7 @@
 
 ## Introduction
 Thank you for your interest in Huckberry. 
+
 As a Frontend applicant, we ask that you please complete this project.
 You will need to use either Github or Bitbucket to submit your work.
 
