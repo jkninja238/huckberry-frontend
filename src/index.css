@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @media (min-width: 1000px) {
+  .app-container, .app-container body {
+      font-size: 16px;
+      line-height: 20px;
+  }
+}
+
+.app-container, .app-container body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Freight Text,sans-serif;
+  font-weight: 400;
+  color: #1d2b39;
+} */
