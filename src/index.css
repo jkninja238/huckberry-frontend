@@ -39,3 +39,7 @@ div {
   font-style: inherit;
   vertical-align: baseline;
 }
+
+ul {
+  list-style: none;
+}

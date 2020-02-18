@@ -1,23 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 //styles
 import './NavigationMenu.css';
 
 //sub-components
 import SearchBar from './SearchBar';
+import Submenu from './Submenu';
 
 const NavigationMenu = (props) => {
-    console.log({props: props.data});
+    const [submenuData, setSubmenuData] = useState(undefined);
 
     return (
-        <div className="nav-wrapper">
+        <div className="nav-wrapper" onClick={() => setSubmenuData(undefined)}>
             <div className="nav-bg" />
             <nav>
                 <div className="grid-container">
                     <div className="media">
                         <div className="nav-list">
-                            { props.data ? props.data.map(items => (
-                                <a href={items.url} key={items.title}>{items.title}</a>
+                            { props.data ? props.data.map(item => (
+                                <a href={item.url} key={item.title} 
+                                    onMouseEnter={() => setSubmenuData(item)}>
+                                    {item.title}
+                                </a>
                             )) : undefined }
                         </div>
                         <div className="media-fixed pr">
@@ -26,7 +30,9 @@ const NavigationMenu = (props) => {
                     </div>
                 </div>
                 <div className="grid-container">
-                    <br />FOR HOVER
+                    { submenuData ? (
+                        <Submenu data={submenuData} onMouseLeave={() => setSubmenuData(undefined)} />
+                    ) : undefined }
                 </div>
             </nav>
         </div>
