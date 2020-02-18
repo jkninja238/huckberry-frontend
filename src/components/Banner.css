@@ -63,3 +63,33 @@
     vertical-align: -7px;
     margin-right: 5px;
 }
+
+.account-hover-wrapper {
+    position: absolute;
+    background-color: #efefef;
+    width: 150px;
+    height: auto;
+    min-height: 200px;
+    z-index: 300;
+    right: 100px;
+    top: 30px;
+}
+
+.account-hover-list-wrapper {
+    font-family: Franklin Gothic Condensed,sans-serif;
+    margin: 0;
+    padding: 10px 20px;
+    list-style: none;
+    line-height: 2;
+    display: block;
+    text-align: left;
+}
+
+.account-hover-list-wrapper li {
+    cursor: pointer;
+}
+
+.account-hover-list-wrapper li:hover,
+.account-wrapper button:hover  {
+    text-decoration: underline;
+}

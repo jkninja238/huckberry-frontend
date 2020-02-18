@@ -26,7 +26,7 @@ const NavigationMenu = (props) => {
                     </div>
                 </div>
                 <div className="grid-container">
-                    hover
+                    <br />FOR HOVER
                 </div>
             </nav>
         </div>
