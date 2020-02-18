@@ -12,20 +12,11 @@ import NavigationMenu from './components/NavigationMenu';
 const Header = () => {
   const [navData] = useState(data);
 
-  console.log({navData});
-
   return (
     <div className="Header">
       <Announcement />
       <Banner />
-      <NavigationMenu>
-        {/* <div>
-          { navData ? navData.map(item => {
-            
-          }) : undefined }
-        </div> */}
-      </NavigationMenu>
-      
+      <NavigationMenu data={navData.navigation.items || []} />
     </div>
   );
 }

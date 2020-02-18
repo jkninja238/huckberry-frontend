@@ -1,15 +1,34 @@
-import React from 'react'
+import React from 'react';
 
-const backgroundDiv = {
-    height: '53px',
-    backgroundColor: '#fff'
-}
+//styles
+import './NavigationMenu.css';
+
+//sub-components
+import SearchBar from './SearchBar';
 
 const NavigationMenu = (props) => {
+    console.log({props: props.data});
+
     return (
-        <div style={{position: 'relative'}}>
-            <div style={backgroundDiv} />
-            { props.children }
+        <div className="nav-wrapper">
+            <div className="nav-bg" />
+            <nav>
+                <div className="grid-container">
+                    <div className="media">
+                        <div className="nav-list">
+                            { props.data ? props.data.map(items => (
+                                <a href={items.url} key={items.title}>{items.title}</a>
+                            )) : undefined }
+                        </div>
+                        <div className="media-fixed pr">
+                            <SearchBar />
+                        </div>
+                    </div>
+                </div>
+                <div className="grid-container">
+                    hover
+                </div>
+            </nav>
         </div>
     )
 }

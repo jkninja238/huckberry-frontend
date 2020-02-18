@@ -4,3 +4,9 @@
   padding: 0;
   border: 0;
 }
+
+.content-wrapper {
+  padding-right: 60px;
+  padding-left: 60px;
+  background-color: #fff;
+}
