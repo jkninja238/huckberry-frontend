@@ -32,7 +32,7 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-    margin-left: -35px;
+    margin-left: -40px;
 }
 
 .categories-column li {
@@ -75,6 +75,7 @@
     background-repeat: no-repeat;
     height: 10em;
     width: 15em;
+    display: block;
 }
 
 .feature-title {
