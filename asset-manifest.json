@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/huckberry-frontend/static/css/main.877abdf0.chunk.css",
+    "main.css": "/huckberry-frontend/static/css/main.950994f0.chunk.css",
     "main.js": "/huckberry-frontend/static/js/main.8f4fee1b.chunk.js",
     "main.js.map": "/huckberry-frontend/static/js/main.8f4fee1b.chunk.js.map",
     "runtime-main.js": "/huckberry-frontend/static/js/runtime-main.357c8756.js",
@@ -8,9 +8,9 @@
     "static/js/2.e4cd12b0.chunk.js": "/huckberry-frontend/static/js/2.e4cd12b0.chunk.js",
     "static/js/2.e4cd12b0.chunk.js.map": "/huckberry-frontend/static/js/2.e4cd12b0.chunk.js.map",
     "index.html": "/huckberry-frontend/index.html",
-    "precache-manifest.2b7f4fd67c0cdc0457cdf9ee781b685d.js": "/huckberry-frontend/precache-manifest.2b7f4fd67c0cdc0457cdf9ee781b685d.js",
+    "precache-manifest.3eb0d6e8e5bc7f8578807c2d5eeb7348.js": "/huckberry-frontend/precache-manifest.3eb0d6e8e5bc7f8578807c2d5eeb7348.js",
     "service-worker.js": "/huckberry-frontend/service-worker.js",
-    "static/css/main.877abdf0.chunk.css.map": "/huckberry-frontend/static/css/main.877abdf0.chunk.css.map",
+    "static/css/main.950994f0.chunk.css.map": "/huckberry-frontend/static/css/main.950994f0.chunk.css.map",
     "static/js/2.e4cd12b0.chunk.js.LICENSE.txt": "/huckberry-frontend/static/js/2.e4cd12b0.chunk.js.LICENSE.txt",
     "static/media/huckberry-logo.svg": "/huckberry-frontend/static/media/huckberry-logo.8996b790.svg",
     "static/media/icon-bag.svg": "/huckberry-frontend/static/media/icon-bag.a6304390.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.357c8756.js",
     "static/js/2.e4cd12b0.chunk.js",
-    "static/css/main.877abdf0.chunk.css",
+    "static/css/main.950994f0.chunk.css",
     "static/js/main.8f4fee1b.chunk.js"
   ]
 }

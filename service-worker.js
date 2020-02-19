@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/huckberry-frontend/precache-manifest.2b7f4fd67c0cdc0457cdf9ee781b685d.js"
+  "/huckberry-frontend/precache-manifest.3eb0d6e8e5bc7f8578807c2d5eeb7348.js"
 );
 
 self.addEventListener('message', (event) => {

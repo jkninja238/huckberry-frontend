@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aabcb794fce83248ceec1cb7e2b00ead",
+    "revision": "5e4206629ee06a3889b08c6e9e40e322",
     "url": "/huckberry-frontend/index.html"
   },
   {
-    "revision": "1738df702a40b32cee93",
-    "url": "/huckberry-frontend/static/css/main.877abdf0.chunk.css"
+    "revision": "c3eea91bf850525f1228",
+    "url": "/huckberry-frontend/static/css/main.950994f0.chunk.css"
   },
   {
     "revision": "59a561331b99acfe20a1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/huckberry-frontend/static/js/2.e4cd12b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1738df702a40b32cee93",
+    "revision": "c3eea91bf850525f1228",
     "url": "/huckberry-frontend/static/js/main.8f4fee1b.chunk.js"
   },
   {
