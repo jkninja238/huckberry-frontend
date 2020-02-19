@@ -5,7 +5,12 @@
 .nav-bg {
     height: 53px;
     background-color: #fff;
+}
+
+.nav-wrapper hr {
+    border: none;
     border-bottom: 3px solid #1d2b39;
+    margin: 0;
 }
 
 .nav-wrapper nav {
@@ -21,6 +26,10 @@
     padding-right: 60px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.submenu-grid {
+    background-color: #fff;
 }
 
 .media {

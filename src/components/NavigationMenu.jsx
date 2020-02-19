@@ -29,8 +29,9 @@ const NavigationMenu = (props) => {
                         </div>
                     </div>
                 </div>
-                <div className="grid-container">
-                    { submenuData ? (
+                <hr />
+                <div className="grid-container submenu-grid">
+                    { submenuData && submenuData.children.length>0 ? (
                         <Submenu data={submenuData} onMouseLeave={() => setSubmenuData(undefined)} />
                     ) : undefined }
                 </div>
